@@ -1,0 +1,37 @@
+@font-face {
+    font-family: marvel;
+    src: url(../fonts/MarvelRegular-Dj83.ttf);
+}
+@font-face {
+    font-family: max;
+    src: url(../fonts/MaximumImpact-ELPe.ttf);
+}
+@font-face {
+    font-family: queen;
+    src: url(../fonts/QueensidesMedium-x30zV.ttf);
+}
+@font-face {
+    font-family: ame;
+    src: url(../fonts/AmericanCaptain-MdEY.otf);
+}
+@font-face {
+    font-family: coco;
+    src: url(../fonts/Cocogoose-Narrow-Ultralight-trial.ttf);
+}
+@font-face {
+    font-family: qua;
+    src: url(../fonts/QuartzoBold-W9lv.ttf);
+}
+
+@font-face {
+    font-family: robol;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: robob;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: robobb;
+    src: url(../fonts/Roboto-Black.ttf);
+}
