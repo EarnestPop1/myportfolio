@@ -210,3 +210,102 @@
     }
 
   }
+  @media only screen and (max-width: 500px) {
+    .slide-text h1 {
+        font-size: 70px;
+        line-height: 65px;
+    }
+    .me {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    }
+    .me a{
+        margin-bottom: 25px;
+        margin-right: 0;
+        padding: 16px 82px;
+    }
+    .slide-text p {
+    font-size: 26px;
+    line-height: 38px;
+    }
+    .service-row {
+        height: 168vh;
+    }
+    .layer h1 {
+        font-size: 48px;
+    }
+    .layer p {
+        line-height: 38px;
+        font-size: 26px;
+    }
+    .layer li {
+        font-size: 26px;
+        text-align: left;
+    }
+    .serve {
+    font-size: 27px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    }
+    .layer a {
+        font-size: 26px;
+        padding: 16px 82px;
+        background-color: rgb(0, 132, 255);
+        border: none;
+    }
+        .f-intro h1 {
+        font-size: 42px;
+        }
+        .f-intro p {
+        text-align: center;
+        font-size: 26px;
+        line-height: 38px;
+    }
+        .f-intro span {
+        font-size: 26px;
+    }
+    .footer h1 {
+        font-size: 42px;
+    }
+        .footer a {
+        font-size: 26px;
+    }
+    footer li{
+        text-align: left;
+    }
+    .icon h1 {
+        font-size: 42px;
+    }
+    .icon p {
+        font-size: 26px;
+        line-height: 38px;
+    }
+        .hire a {
+        font-size: 26px;
+        padding: 16px 82px;
+        background-color: rgb(0, 132, 255);
+        border: none;
+    }
+        .slide2 {
+        padding: 50px 10px;
+        height: 184vh;
+    }
+    .dot{
+        height: 184vh;
+    }
+    .zooom{
+        height: 184vh;
+    }
+    .f-head{
+        height: 184vh;
+    }
+    .f-row{
+        height: 184vh;
+    }
+
+
+  }
