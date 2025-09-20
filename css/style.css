@@ -189,6 +189,7 @@
             background: var(--gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            font-family: robob;
             background-clip: text;
         }
 
@@ -290,9 +291,13 @@
             position: relative;
             overflow: hidden;
         }
+        .portfolio-image img{
+            width: 100%;
+            object-fit: cover;
+            height: 250px;
+        }
 
         .portfolio-image::before {
-            content: 'Project Image';
             position: absolute;
             top: 50%;
             left: 50%;
@@ -530,9 +535,6 @@
                 font-size: 1.2rem;
             }
 
-            .section-title h2 {
-                font-size: 2rem;
-            }
 
             .about-content {
                 grid-template-columns: 1fr;
