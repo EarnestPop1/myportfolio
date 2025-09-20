@@ -1,120 +1,262 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>My Portfolio</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earnest - Creative Web Designer</title>
     <link href="bootstrapicons/bootstrap-icons.min.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/mobile.css" rel="stylesheet" type="text/css">
     <link href="css/fonts.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xl-12 back">
-          <img class="zooom" src="image/head.jpg" alt="background">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">Earnest</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Creative Web Designer</h1>
+                <p>Crafting beautiful, functional websites that bring your vision to life</p>
+                <a href="#portfolio" class="cta-button">View My Work</a>
+            </div>
         </div>
-      </div>
-      <div class="row header-row">
-        <div class="col-xl-12 header">
-          <div class="dot"></div>
-          <div class="slide">
-            <div class="circle"></div>
-            <div class="box"></div>
-            <div class="slide-text">
-              <h1>web designer</h1>
-                <p>I’m <b>Earnest</b> — a passionate web designer who specializes in crafting clean, modern, and responsive websites using <b>HTML</b> and <b>CSS</b>. I enjoy turning ideas into functional and visually appealing designs that not only look great but also provide smooth user experiences.
-                </p>
-                <div class="me">
-                  <a href="#services">view more</a>
-                  <a href="">contact me</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Get to know the person behind the designs</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">E</div>
+                <div class="about-text">
+                    <h3>Hello, I'm Earnest!</h3>
+                    <p>I'm a passionate web designer with a keen eye for detail and a love for creating engaging digital experiences. With years of experience in HTML and CSS, I specialize in crafting responsive, user-friendly websites that not only look great but also perform exceptionally.</p>
+                    <p>My approach combines creativity with functionality, ensuring that every project I work on delivers both visual appeal and seamless user experience. I believe in clean code, modern design principles, and the power of collaboration.</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Web Optimization</span>
+                    </div>
                 </div>
             </div>
-            <div class="pics"><img src="image/consult.png" alt="image"></div>
-          </div>
-          <img class="zooom" src="image/bac.jpg" alt="image">
         </div>
-      </div>
-      <div class="row">
-        <div class="col-xl-12 navbar">
-          <div class="menu">
-            <a href="index.html"><img src="image/logo.png" alt="logo"></a>
-            <a href="index.html"><bi class="bi bi-house"></bi> home</a>
-            <a href="#services"><bi class="bi bi-gear"></bi> services</a>
-            <a href="#footer"><bi class="bi bi-person"></bi> my projects</a>
-            <a href="#footer"><bi class="bi bi-phone"></bi> contact me</a>
-          </div>
-        </div>
-      </div>
-      <div class="row service-row" id="services">
-        <div class="line"></div>
-        <div class="dot2"></div>
-        <div class="blurry"></div>
-        <div class="blurry2"></div>
-          <div class="skill"></div>
-          <div class="skill2"></div>
-        <div class="col-lg-7 serve-img">
-          <div class="image"><img src="image/consult.png" alt=""></div>
-        </div>
-        <div class="col-lg-5 layer">
-          <h1>Why Me?</h1>
-          <p>Because I keep it simple, clean, and creative. No clutter, no boring designs — just websites that grab attention and deliver results.
+    </section>
 
-            Let’s Build Something Amazing Together!</p>
-          <div class="serve">Services/Skills</div>
-          <ul>
-            <li>Custom Website Design – From scratch using pure HTML & CSS</li>
-            <li>Responsive Layouts – Optimized for desktop, tablet, and mobile</li>
-            <li>Landing Pages – High-converting, creative, and user-friendly</li>
-            <li>Website Redesign – Transform outdated sites into modern designs</li>
-            <li>UI Styling – Pixel-perfect CSS for better user experience</li>
-          </ul>
-          <a href="#footer">contact me</a>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Portfolio</h2>
+                <p>Check out some of my recent work and projects</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🌐</div>
+                    <div class="portfolio-content">
+                        <h3>E-Commerce Website</h3>
+                        <p>A modern, responsive e-commerce platform built with clean HTML and CSS. Features include product galleries, shopping cart functionality, and mobile-first design.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link live-link">Live Demo</a>
+                            <a href="#" class="portfolio-link code-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🏢</div>
+                    <div class="portfolio-content">
+                        <h3>Corporate Website</h3>
+                        <p>Professional corporate website with elegant design and smooth animations. Built using semantic HTML5 and advanced CSS3 techniques.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link live-link">Live Demo</a>
+                            <a href="#" class="portfolio-link code-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🎨</div>
+                    <div class="portfolio-content">
+                        <h3>Creative Portfolio</h3>
+                        <p>An artistic portfolio website showcasing creative work with interactive galleries and stunning visual effects using pure CSS.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link live-link">Live Demo</a>
+                            <a href="#" class="portfolio-link code-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🍕</div>
+                    <div class="portfolio-content">
+                        <h3>Restaurant Website</h3>
+                        <p>Appetizing restaurant website with menu displays, reservation forms, and location information. Fully responsive and optimized for mobile devices.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link live-link">Live Demo</a>
+                            <a href="#" class="portfolio-link code-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">📱</div>
+                    <div class="portfolio-content">
+                        <h3>Landing Page</h3>
+                        <p>High-converting landing page with compelling call-to-actions and optimized user flow. Designed with conversion optimization in mind.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link live-link">Live Demo</a>
+                            <a href="#" class="portfolio-link code-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">📚</div>
+                    <div class="portfolio-content">
+                        <h3>Educational Platform</h3>
+                        <p>Clean and intuitive educational website with course listings, student dashboards, and interactive learning modules.</p>
+                        <div class="portfolio-links">
+                            <a href="#" class="portfolio-link live-link">Live Demo</a>
+                            <a href="#" class="portfolio-link code-link">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row header-row f-row" id="footer">
-        <div class="col-xl-12 header f-head">
-          <div class="dot"></div>
-          <div class="slide2">
-            <div class="circle"></div>
-            <div class="box"></div>
-            <div class="f-intro">
-              <h1>Personality</h1>
-              <p>I approach web design with empathy and attention to detail, understanding that behind every click is a real person with real needs. My design philosophy centers on creating intuitive, accessible experiences that feel effortless yet meaningful.</p>
-              <span><i class="bi bi-envelope"></i> earnestpop2003@gmail.com</span>
-              <span><i class="bi bi-phone"></i> +234-906-973-8538</span>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Services</h2>
+                <p>What I can do for your business</p>
             </div>
-            <div class="footer">
-              <h1>my projects</h1>
-              <ul>
-                <li><a href="">uptimum living trybe</a></li>
-                <li><a href="">waponi consulting company</a></li>
-                <li><a href="">uti portfolio</a></li>
-                <li><a href="">uptimum living trybe</a></li>
-                <li><a href="">waponi consulting company</a></li>
-                <li><a href="">uti portfolio</a></li>
-                <li><a href="">uptimum living trybe</a></li>
-                <li><a href="">waponi consulting company</a></li>
-                <li><a href="">uti portfolio</a></li>
-              </ul>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Custom website design that reflects your brand identity and engages your target audience with stunning visuals and user-friendly interfaces.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Responsive Development</h3>
+                    <p>Mobile-first responsive websites that look and function perfectly across all devices, from smartphones to desktop computers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Performance Optimization</h3>
+                    <p>Website optimization for speed and performance, ensuring fast loading times and excellent user experience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Website Maintenance</h3>
+                    <p>Ongoing website maintenance and updates to keep your site secure, up-to-date, and running smoothly.</p>
+                </div>
             </div>
-            <div class="icon">
-              <h1>dedication</h1>
-              <p>Excellence isn't negotiable. I'm dedicated to delivering pixel-perfect designs, clean code, and seamless user experiences. Your project receives my full attention from initial concept through final launch—and beyond with ongoing support.</p>
-              <div class="hire">
-                <a href="">hire me</a>
-              </div>
-              
-            </div>
-          </div>
-          <img class="zooom" src="image/bac.jpg" alt="image">
         </div>
-      </div>
-    </div>
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2 style="color: white;">Let's Work Together</h2>
+                <p style="color: rgba(255,255,255,0.8);">Ready to start your next project? Get in touch!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="project">Project Type</label>
+                            <input type="text" id="project" name="project" placeholder="e.g., E-commerce website">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-item">earnest.designer@email.com</div>
+                    <div class="contact-item">Lagos, Nigeria</div>
+                    <div class="contact-item">+234 XXX XXX XXXX</div>
+                    <p style="margin-top: 2rem; opacity: 0.9;">I'm always excited to work on new projects and collaborate with amazing people. Whether you need a complete website redesign or just want to improve your current site, let's discuss how we can bring your vision to life!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" title="LinkedIn">💼</a>
+                <a href="#" title="GitHub">🐱</a>
+                <a href="#" title="Twitter">🐦</a>
+                <a href="#" title="Instagram">📷</a>
+            </div>
+            <p>&copy; 2025 Earnest. All rights reserved. Designed with ❤️ in Nigeria</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Header background change on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.98)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+            }
+        });
+
+        // Form submission
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I\'ll get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
 </html>
